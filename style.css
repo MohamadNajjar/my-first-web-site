@@ -13,8 +13,8 @@
 .navbar{
     position: fixed;
     width: 100%;
-    padding: 15px 0 ;
-    background-color: crimson;
+    padding: 30px 0 ;
+    /*background-color: crimson;*/
     font-family: 'Ubuntu' , sans-serif ;
 }
 .navbar .max-width{
@@ -27,6 +27,9 @@
     font-size: 35px;
     font-weight: 600;
 }
+.navbar .logo a span{
+    color: red;
+}
 .navbar .menu li{
     list-style: none;
     display: inline-block;
@@ -36,6 +39,10 @@
     font-size: 18px ;
     font-weight: 500;
     margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: red;
 }
 .home{
    display: flex;
@@ -59,4 +66,8 @@
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
 }
