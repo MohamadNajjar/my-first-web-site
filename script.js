@@ -4,7 +4,7 @@ $(document).ready(function(){
             $('.navbar').addClass("sticky");
         }else{
             $('.navbar').removeClass("sticky");
-        }
+        };
     });
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
