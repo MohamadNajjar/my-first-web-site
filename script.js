@@ -6,8 +6,9 @@ $(document).ready(function(){
             $('.navbar').removeClass("sticky");
         };
     });
-    $('.menu-btn').click(function(){
-        $('.navbar .menu').toggleClass("active");
-        $('.navbar-btn i').toggleClass("active");
-    });
+     $('.menu-btn').click(function() {
+         console.log('enu button clicked')
+         $('.navbar .menu').toggleClass("active");
+         $('.menu-btn i').toggleClass("active");
+     });
 });
