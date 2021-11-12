@@ -235,11 +235,22 @@ section .title::after{
     width: calc(50% - 30px);
 }
 .skills .skills-content .left .text{
-   font-size: 25px;
+   font-size: 20px;
    font-weight: 500;
    margin-bottom: 10px; 
 }
-
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 10px;
+}
 @media (max-width: 1300px){
     .home .max-width{
         margin-left:0px ;
@@ -342,5 +353,6 @@ section .title::after{
 }
 .home .home-content .text-3{
     font-size: 27px;
+}
 }
 }
